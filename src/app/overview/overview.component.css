@@ -1,0 +1,232 @@
+.fondo-overview{
+	background-image: url("../../assets/img/fondo-overview.png");
+	height: auto;
+	min-height: 505px;
+}
+.overview-icon{
+	width: 100px;
+	height: auto;
+	margin-bottom: 20px;
+}
+.intro-overview{
+	color: #222222;
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	padding: 5% 20%;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	height: calc(100vh - 50px);
+}
+.img-overview{
+	heigh:100%;
+}
+.btn-principal{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #222222;
+	padding: 2px 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.barra-nav{
+	padding-top: 50px;
+    text-align:center;
+}
+.barra-nav>li{
+	font-size: 20px;
+	font-weight: 700;
+	width: 120px;
+	display:inline-block;
+}
+.barra-nav>li:hover{
+	color: #222222;
+}
+.barra-nav>li>a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.barra-nav>li>a:hover{
+	text-align: center;
+	color: #222222;
+	border-top: thick solid #222222;
+}
+.btn-discovery{
+	color: #ffc305;
+	border-top: thick solid #ffc305;
+}
+.btn-diagnose{
+	color: #ff5733;
+	border-top: thick solid #ff5733;
+}
+.btn-translate{
+	color: #c70039;
+	border-top: thick solid #c70039;
+}
+.btn-plan{
+	color: #900c3f;
+	border-top: thick solid #900c3f;
+}
+.btn-evolve{
+	color: #581845;
+	border-top: thick solid #581845;
+}
+.active01{
+	color: #ffffff;
+	background-color: #fcb711;
+}
+.active02{
+	color: #ffffff;
+	background-color: #f37021;
+}
+.active03{
+	color: #ffffff;
+	background-color: #cc004c;
+}
+.active04{
+	color: #ffffff;
+	background-color: #6460aa;
+}
+.active05{
+	color: #ffffff;
+	background-color: #0089d0;
+}
+.fases{
+	margin-bottom: 50px;
+}
+.fases-titulo{
+	color: #222222;
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	padding: 2% 5%;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discovery{
+	width: 19%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.diagnose{
+	width: 19%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.translate{
+	width: 19%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.plan{
+	width: 19%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.evolve{
+	width: 19%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.discovery .titulo{
+	border-top: thick solid #ffc305;
+	color: #ffc305;
+}
+.diagnose .titulo{
+	border-top: thick solid #ff5733;
+	color: #ff5733;
+}
+.translate .titulo{
+	border-top: thick solid #c70039;
+	color: #c70039;
+}
+.plan .titulo{
+	border-top: thick solid #900c3f;
+	color: #900c3f;
+}
+.evolve .titulo{
+	border-top: thick solid #581845;
+	color: #581845;
+}
+.discovery .subtitulo{
+	color: #ffc305;
+}
+.diagnose .subtitulo{
+	color: #ff5733;
+}
+.translate .subtitulo{
+	color: #c70039;
+}
+.plan .subtitulo{
+	color: #900c3f;
+}
+.evolve .subtitulo{
+	color: #581845;
+}
+.titulo{
+	text-align: center;
+}
+.subtitulo{
+	text-align: center;
+	height: 50px;
+}
+.discovery .detalle{
+	background-color: #ffc305;
+}
+.diagnose .detalle{
+	background-color: #ff5733;
+}
+.translate .detalle{
+	background-color: #c70039;
+}
+.plan .detalle{
+	background-color: #900c3f;
+}
+.evolve .detalle{
+	background-color: #581845;
+}
+.detalle{
+	height: 50vh;
+}
+li{
+	color: #ffffff;
+}
+
+@media only screen and (max-width : 1200px) {
+	.intro-overview{
+		font-size: 28px;
+		padding: 10% 10%;
+	}
+	.barra-nav>li{
+		font-size: 20px;
+		font-weight: 700;
+		width: 100px;
+		display:inline-block;
+	}
+
+}
+@media only screen and (max-width : 979px) {
+	.intro-overview{
+		font-size: 28px;
+		padding: 10% 5%;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.intro-overview{
+		font-size: 24px;
+		padding: 10% 5%;
+	}
+
+}

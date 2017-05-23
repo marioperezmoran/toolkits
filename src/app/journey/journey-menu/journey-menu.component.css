@@ -1,0 +1,89 @@
+.menu-journey{
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+	color: #f7fff7;
+	margin-bottom: 0px;
+}
+.barra-nav{
+	padding-top: 20px;
+    text-align:center;
+}
+.barra-nav>li{
+	font-size: 20px;
+	font-weight: 700;
+	width: 120px;
+	display:inline-block;
+}
+.barra-nav>li:hover{
+	color: #222222;
+}
+.barra-nav>li>a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.btn-inactive{
+	color: #222222;
+	border-top: thick solid #222222;
+}
+.active01{
+	color: #f7fff7;
+	border-top: thick solid #f7fff7;
+}
+.active02{
+	color: #f7fff7;
+	border-top: thick solid #f7fff7;
+}
+.active03{
+	color: #f7fff7;
+	border-top: thick solid #f7fff7;
+}
+.active04{
+	color: #f7fff7;
+	border-top: thick solid #f7fff7;
+}
+.active05{
+	color: #f7fff7;
+	border-top: thick solid #f7fff7;
+}
+.active01:hover{
+	color: #f7fff7 !important;
+	border-top: thick solid #f7fff7 !important;
+}
+.active02:hover{
+	color: #f7fff7 !important;
+	border-top: thick solid #f7fff7 !important;
+}
+.active03:hover{
+	color: #f7fff7 !important;
+	border-top: thick solid #f7fff7 !important;
+}
+.active04:hover{
+	color: #f7fff7 !important;
+	border-top: thick solid #f7fff7 !important;
+}
+.active05:hover	{
+	color: #f7fff7 !important;
+	border-top: thick solid #f7fff7 !important;
+}
+.btn-discovery:hover{
+	color: #ffc305;
+	border-top: thick solid #ffc305;
+}
+.btn-diagnose:hover{
+	color: #ff5733;
+	border-top: thick solid #ff5733;
+}
+.btn-translate:hover{
+	color: #c70039;
+	border-top: thick solid #c70039;
+}
+.btn-plan:hover{
+	color: #900c3f;
+	border-top: thick solid #900c3f;
+}
+.btn-evolve:hover{
+	color: #581845;
+	border-top: thick solid #581845;
+}

@@ -1,0 +1,10 @@
+.text-white{
+	color: #f7fff7 !important;
+}
+.menu{
+	font-family: 'Oswald', sans-serif;
+	left: auto;
+    right: auto;
+    float: right;
+    position: relative;
+}

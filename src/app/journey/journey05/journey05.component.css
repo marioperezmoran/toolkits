@@ -1,0 +1,25 @@
+@import url('../journey.component.css');
+.text-white{
+	color: #222222;
+}
+.intro{
+	padding-top: 90px;
+	background-color: #581845;
+    background-size: auto 100%;
+    background-repeat: no-repeat;	
+    background-position: right bottom; 
+	height: calc(100vh - 50px);
+}
+.intro:after{
+  content: "";
+  background: url("../../../assets/img/signal.svg");
+  opacity: 0.03;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.contenido{
+	color: #222222;
+}
